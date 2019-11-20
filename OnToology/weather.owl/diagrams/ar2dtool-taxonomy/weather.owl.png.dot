@@ -1,0 +1,20 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "sosa:ObservableProperty" "sosa:FeatureOfInterest" ":Radiance" ":LuminusFlux" "sosa:ActuatableProperty" "sosa:Actuator" ":HumidityProperty" "sosa:Sample" ":Depth" ":SkyCover" "http://www.w3.org/ns/ssn/Property" ":TemperatureProperty" "sosa:Sensor" "http://www.w3.org/ns/ssn/System" "sosa:Result" ":WindAmbientProperty" ":WeatherProperty" ; /*classes style*/
+	":TemperatureProperty" -> ":WeatherProperty" [ label = "rdfs:subClassOf" ];
+	":Radiance" -> ":WeatherProperty" [ label = "rdfs:subClassOf" ];
+	":WindAmbientProperty" -> ":WeatherProperty" [ label = "rdfs:subClassOf" ];
+	"sosa:Sample" -> "sosa:FeatureOfInterest" [ label = "rdfs:subClassOf" ];
+	"sosa:Sample" -> "sosa:Result" [ label = "rdfs:subClassOf" ];
+	":LuminusFlux" -> ":WeatherProperty" [ label = "rdfs:subClassOf" ];
+	":SkyCover" -> ":WeatherProperty" [ label = "rdfs:subClassOf" ];
+	"sosa:ActuatableProperty" -> "http://www.w3.org/ns/ssn/Property" [ label = "rdfs:subClassOf" ];
+	"sosa:ObservableProperty" -> "http://www.w3.org/ns/ssn/Property" [ label = "rdfs:subClassOf" ];
+	"sosa:Actuator" -> "http://www.w3.org/ns/ssn/System" [ label = "rdfs:subClassOf" ];
+	":WeatherProperty" -> "http://www.w3.org/ns/ssn/Property" [ label = "rdfs:subClassOf" ];
+	"sosa:Sensor" -> "http://www.w3.org/ns/ssn/System" [ label = "rdfs:subClassOf" ];
+	":Depth" -> ":WeatherProperty" [ label = "rdfs:subClassOf" ];
+	":HumidityProperty" -> ":WeatherProperty" [ label = "rdfs:subClassOf" ];
+
+}
