@@ -1,0 +1,207 @@
+{
+  "@context" : {
+    "UnitOfMeasure" : {
+      "@id" : "https://w3id.org/saref#UnitOfMeasure"
+    },
+    "example" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#example"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "actsOnProperty" : {
+      "@id" : "http://www.w3.org/ns/sosa/actsOnProperty",
+      "@type" : "@id"
+    },
+    "FeatureOfInterest" : {
+      "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
+    },
+    "SkyCover" : {
+      "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#SkyCover"
+    },
+    "hasValue" : {
+      "@id" : "https://w3id.org/saref#hasValue"
+    },
+    "WindAmbientProperty" : {
+      "@id" : "http://iot.linkeddata.es/def/adapters#WindAmbientProperty"
+    },
+    "domainIncludes" : {
+      "@id" : "http://schema.org/domainIncludes"
+    },
+    "madeBySensor" : {
+      "@id" : "http://www.w3.org/ns/sosa/madeBySensor",
+      "@type" : "@id"
+    },
+    "ActuatableProperty" : {
+      "@id" : "http://www.w3.org/ns/sosa/ActuatableProperty"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Result" : {
+      "@id" : "http://www.w3.org/ns/sosa/Result"
+    },
+    "Measurement" : {
+      "@id" : "https://w3id.org/saref#Measurement"
+    },
+    "LuminusFlux" : {
+      "@id" : "http://iot.linkeddata.es/def/adapters#LuminusFlux"
+    },
+    "TemperatureProperty" : {
+      "@id" : "http://iot.linkeddata.es/def/adapters#TemperatureProperty"
+    },
+    "hasProperty" : {
+      "@id" : "http://www.w3.org/ns/ssn/hasProperty",
+      "@type" : "@id"
+    },
+    "note" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#note"
+    },
+    "resultTime" : {
+      "@id" : "http://www.w3.org/ns/sosa/resultTime"
+    },
+    "isActedOnBy" : {
+      "@id" : "http://www.w3.org/ns/sosa/isActedOnBy",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "phenomenonTime" : {
+      "@id" : "http://www.w3.org/ns/sosa/phenomenonTime",
+      "@type" : "@id"
+    },
+    "rangeIncludes" : {
+      "@id" : "http://schema.org/rangeIncludes"
+    },
+    "location" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#location",
+      "@type" : "@id"
+    },
+    "TemporalEntity" : {
+      "@id" : "http://www.w3.org/2006/time#TemporalEntity"
+    },
+    "isResultOf" : {
+      "@id" : "http://www.w3.org/ns/sosa/isResultOf",
+      "@type" : "@id"
+    },
+    "hasTimeStamp" : {
+      "@id" : "https://w3id.org/saref#hasTimeStamp",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "Radiance" : {
+      "@id" : "http://iot.linkeddata.es/def/adapters#Radiance"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "definition" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "hasSample" : {
+      "@id" : "http://www.w3.org/ns/ssn/hasSample",
+      "@type" : "@id"
+    },
+    "observes" : {
+      "@id" : "http://www.w3.org/ns/ssn/observes",
+      "@type" : "@id"
+    },
+    "makesMeasurement" : {
+      "@id" : "https://w3id.org/saref#makesMeasurement",
+      "@type" : "@id"
+    },
+    "forProperty" : {
+      "@id" : "http://www.w3.org/ns/ssn/forProperty",
+      "@type" : "@id"
+    },
+    "hasResult" : {
+      "@id" : "http://www.w3.org/ns/sosa/hasResult",
+      "@type" : "@id"
+    },
+    "Property" : {
+      "@id" : "http://www.w3.org/ns/ssn/Property"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "isObservedBy" : {
+      "@id" : "http://www.w3.org/ns/sosa/isObservedBy",
+      "@type" : "@id"
+    },
+    "isMeasuredIn" : {
+      "@id" : "https://w3id.org/saref#isMeasuredIn",
+      "@type" : "@id"
+    },
+    "hasFeatureOfInterest" : {
+      "@id" : "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+      "@type" : "@id"
+    },
+    "observedProperty" : {
+      "@id" : "http://www.w3.org/ns/sosa/observedProperty",
+      "@type" : "@id"
+    },
+    "isPropertyOf" : {
+      "@id" : "http://www.w3.org/ns/ssn/isPropertyOf",
+      "@type" : "@id"
+    },
+    "Sample" : {
+      "@id" : "http://www.w3.org/ns/sosa/Sample"
+    },
+    "relatesToProperty" : {
+      "@id" : "https://w3id.org/saref#relatesToProperty",
+      "@type" : "@id"
+    },
+    "Actuator" : {
+      "@id" : "http://www.w3.org/ns/sosa/Actuator"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "madeByActuator" : {
+      "@id" : "http://www.w3.org/ns/sosa/madeByActuator",
+      "@type" : "@id"
+    },
+    "ObservableProperty" : {
+      "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+    },
+    "Depth" : {
+      "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#Depth"
+    },
+    "System" : {
+      "@id" : "http://www.w3.org/ns/ssn/System"
+    },
+    "Actuation" : {
+      "@id" : "http://www.w3.org/ns/sosa/Actuation"
+    },
+    "Sampling" : {
+      "@id" : "http://www.w3.org/ns/sosa/Sampling"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "HumidityProperty" : {
+      "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#HumidityProperty"
+    },
+    "WeatherProperty" : {
+      "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#WeatherProperty"
+    },
+    "Observation" : {
+      "@id" : "http://www.w3.org/ns/sosa/Observation"
+    },
+    "Sensor" : {
+      "@id" : "http://www.w3.org/ns/sosa/Sensor"
+    },
+    "hasSimpleResult" : {
+      "@id" : "http://www.w3.org/ns/sosa/hasSimpleResult"
+    }
+  }
+}

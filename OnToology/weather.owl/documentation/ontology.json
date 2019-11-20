@@ -1,0 +1,1425 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/ActuatableProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/isActedOnBy"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/ns/ssn/Property"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/ssn/hasProperty"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Sample"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/ssn/hasSample"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/ssn/hasProperty"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/isObservedBy"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Result"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/hasResult"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/madeBySensor"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/observedProperty"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/hasResult"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/madeBySensor"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/observedProperty"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/madeByActuator"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/phenomenonTime"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/resultTime"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/isResultOf"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/ssn/isPropertyOf"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/saref#Measurement"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/saref#isMeasuredIn"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/ns/ssn/Property"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/saref#relatesToProperty"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/saref#UnitOfMeasure"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/saref#isMeasuredIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.w3.org/ns/ssn/Property"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/saref#relatesToProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/saref#hasTimeStamp"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/saref#hasValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/hasFeatureOfInterest"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Result"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/hasResult"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Actuator"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/madeByActuator"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/hasResult"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/ActuatableProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/actsOnProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/hasFeatureOfInterest"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/resultTime"
+  } ]
+}, {
+  "@id" : "http://data.nasa.gov/qudt/owl/unit#MeterPerSecond",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/saref#UnitOfMeasure" ]
+}, {
+  "@id" : "http://data.nasa.gov/qudt/owl/unit#Percent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/saref#UnitOfMeasure" ]
+}, {
+  "@id" : "http://iot.linkeddata.es/def/adapters#AverageHumidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#HumidityProperty" ]
+}, {
+  "@id" : "http://iot.linkeddata.es/def/adapters#LuminusFlux",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#WeatherProperty"
+  } ]
+}, {
+  "@id" : "http://iot.linkeddata.es/def/adapters#MaxHumidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#HumidityProperty" ]
+}, {
+  "@id" : "http://iot.linkeddata.es/def/adapters#MinHumidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#HumidityProperty" ]
+}, {
+  "@id" : "http://iot.linkeddata.es/def/adapters#Radiance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Radiance (Radiation intensity)  is a propagation in a given direction per unit solid angle whose axis is a chosen direction and per unit area at a given point perpendicular to this direction. (http://www.thermopedia.com/content/9637/)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Radiance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#WeatherProperty"
+  } ]
+}, {
+  "@id" : "http://iot.linkeddata.es/def/adapters#RelativeHumidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#HumidityProperty" ],
+  "https://w3id.org/saref#hasValue" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "34"
+  } ]
+}, {
+  "@id" : "http://iot.linkeddata.es/def/adapters#TemperatureProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#WeatherProperty"
+  } ]
+}, {
+  "@id" : "http://iot.linkeddata.es/def/adapters#WindAmbientProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#WeatherProperty"
+  } ]
+}, {
+  "@id" : "http://iot.linkeddata.es/def/adapters#WindOrientation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://iot.linkeddata.es/def/adapters#WindAmbientProperty" ]
+}, {
+  "@id" : "http://iot.linkeddata.es/def/adapters#WindSpeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://iot.linkeddata.es/def/adapters#WindAmbientProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/domainIncludes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/rangeIncludes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/candelaPerSquareMeter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/saref#UnitOfMeasure" ],
+  "https://w3id.org/saref#relatesToProperty" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/degree"
+  } ]
+}, {
+  "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/degree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/saref#UnitOfMeasure" ]
+}, {
+  "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/degreeCelsius",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/saref#UnitOfMeasure" ]
+}, {
+  "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/kilometer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/saref#UnitOfMeasure" ]
+}, {
+  "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/lux",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/saref#UnitOfMeasure" ]
+}, {
+  "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/meter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/saref#UnitOfMeasure" ]
+}, {
+  "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/milimeter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/saref#UnitOfMeasure" ]
+}, {
+  "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/pascal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/saref#UnitOfMeasure" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Ontology for weather phenomena and exterior conditions"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
+    "@value" : "Weather Ontology"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@language" : "en",
+    "@value" : ""
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@value" : ""
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "weat"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : ""
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#AersolOpticalDepth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#Depth" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#AtmosphericPressure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#WeatherProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#CeilingHeight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#WeatherProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#Depth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Depth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#WeatherProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#DewPointTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://iot.linkeddata.es/def/adapters#TemperatureProperty" ],
+  "https://w3id.org/saref#isMeasuredIn" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/degreeCelsius"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#DiffuseHorizontalIlluminance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://iot.linkeddata.es/def/adapters#LuminusFlux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#DiffuseHorizontalRadiation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://iot.linkeddata.es/def/adapters#Radiance" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#DirectNormalIlluminance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://iot.linkeddata.es/def/adapters#LuminusFlux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#DirectNormalRadiation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://iot.linkeddata.es/def/adapters#Radiance" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#DryBulbTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://iot.linkeddata.es/def/adapters#TemperatureProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#ExtraterrestrialDirectNormalRadiation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://iot.linkeddata.es/def/adapters#Radiance" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#ExtraterrestrialHorizontalRadiation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://iot.linkeddata.es/def/adapters#Radiance" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#GlobalHorizontalIlluminance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://iot.linkeddata.es/def/adapters#LuminusFlux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#GlobalHorizontalRadiation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://iot.linkeddata.es/def/adapters#Radiance" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#HumidityProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#WeatherProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#LiquidPercipitationDepth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#Depth" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#LiquidPercipitationQuantity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#WeatherProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#OpaqueSkyCover",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#SkyCover" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#Preciptation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#WeatherProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#PresentWeatherCodes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#WeatherProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#SkyCover",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "SkyCover"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#WeatherProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#SnowDepth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#Depth" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#TotalSkyCover",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#SkyCover" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#Visibility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#WeatherProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#WeatStation01Sensor01ObservationAtPT24H2019-11-19T00_0200",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/saref#Measurement" ],
+  "https://w3id.org/saref#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "9.7"
+  } ],
+  "https://w3id.org/saref#relatesToProperty" : [ {
+    "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#DryBulbTemperature"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#WeatherProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Weather Property"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/ssn/Property"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#WindDirection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://iot.linkeddata.es/def/adapters#WindAmbientProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#ZenithIlluminance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://iot.linkeddata.es/def/adapters#LuminusFlux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#sen00001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "https://w3id.org/saref#makesMeasurement" : [ {
+    "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#WeatStation01Sensor01ObservationAtPT24H2019-11-19T00_0200"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#watthourpersquaremeter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/saref#UnitOfMeasure" ]
+}, {
+  "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#xxx00001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Observation" ],
+  "http://www.w3.org/ns/sosa/isObservedBy" : [ {
+    "@id" : "http://www.semanticweb.org/stiwari/ontologies/2019/8/untitled-ontology-130#sen00001"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The relation between something and the point, \n or other geometrical thing in space, where it is.  For example, the realtionship between\n a radio tower and a Point with a given lat and long.\n Or a relationship between a park and its outline as a closed arc of points, or a road and\n its location as a arc (a sequence of points).\n Clearly in practice there will be limit to the accuracy of any such statement, but one would expect\n an accuracy appropriate for the size of the object and uses such as mapping ."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/2003/01/geo/wgs84_pos#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geo location"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#example",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#note",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#TemporalEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "temporal entity"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/ActuatableProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An actuatable quality (property, characteristic) of a FeatureOfInterest."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/sosa/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Actuatable Property"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/ssn/Property"
+  }, {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An actuatable quality (property, characteristic) of a FeatureOfInterest."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en",
+    "@value" : "A window actuator acts by changing the state between a frame and a window. The ability of the window to be opened and closed is its ActuatableProperty."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/Actuation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An Actuation carries out an (Actuation) Procedure to change the state of the world using an Actuator."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Actuation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid7"
+  }, {
+    "@id" : "_:genid8"
+  }, {
+    "@id" : "_:genid9"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An Actuation carries out an (Actuation) Procedure to change the state of the world using an Actuator."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en",
+    "@value" : "The activity of automatically closing a window if the temperature in a room drops below 20 degree Celsius. The activity is the Actuation and the device that closes the window is the Actuator. The Procedure is the rule, plan, or specification that defines the conditions that triggers the Actuation, here a drop in temperature."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/Actuator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A device that is used by, or implements, an (Actuation) Procedure that changes the state of the world."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/sosa/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Actuator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/ssn/System"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A device that is used by, or implements, an (Actuation) Procedure that changes the state of the world."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en",
+    "@value" : "A window actuator for automatic window control, i.e., opening or closing the window."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The thing whose property is being estimated or calculated in the course of an Observation to arrive at a Result or whose property is being manipulated by an Actuator, or which is being sampled or transformed in an act of Sampling."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/sosa/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Feature Of Interest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid10"
+  }, {
+    "@id" : "_:genid11"
+  }, {
+    "@id" : "_:genid12"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "The thing whose property is being estimated or calculated in the course of an Observation to arrive at a Result or whose property is being manipulated by an Actuator, or which is being sampled or transformed in an act of Sampling."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en",
+    "@value" : "When measuring the height of a tree, the height is the observed ObservableProperty, 20m may be the Result of the Observation, and the tree is the FeatureOfInterest. A window is a FeatureOfInterest for an automatic window control Actuator."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/ObservableProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An observable quality (property, characteristic) of a FeatureOfInterest."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/sosa/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Observable Property"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/ssn/Property"
+  }, {
+    "@id" : "_:genid13"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An observable quality (property, characteristic) of a FeatureOfInterest."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en",
+    "@value" : "The height of a tree, the depth of a water body, or the temperature of a surface are examples of observable properties, while the value of a classic car is not (directly) observable but asserted."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/Observation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Act of carrying out an (Observation) Procedure to estimate or calculate a value of a property of a FeatureOfInterest. Links to a Sensor to describe what made the Observation and how; links to an ObservableProperty to describe what the result is an estimate of, and to a FeatureOfInterest to detail what that property was associated with."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Observation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid14"
+  }, {
+    "@id" : "_:genid15"
+  }, {
+    "@id" : "_:genid16"
+  }, {
+    "@id" : "_:genid17"
+  }, {
+    "@id" : "_:genid18"
+  }, {
+    "@id" : "_:genid19"
+  }, {
+    "@id" : "_:genid20"
+  }, {
+    "@id" : "_:genid21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Act of carrying out an (Observation) Procedure to estimate or calculate a value of a property of a FeatureOfInterest. Links to a Sensor to describe what made the Observation and how; links to an ObservableProperty to describe what the result is an estimate of, and to a FeatureOfInterest to detail what that property was associated with."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en",
+    "@value" : "The activity of estimating the intensity of an Earthquake using the Mercalli intensity scale is an Observation as is measuring the moment magnitude, i.e., the energy released by said earthquake."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/Result",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The Result of an Observation, Actuation, or act of Sampling. To store an observation's simple result value one can use the hasSimpleResult property."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/sosa/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Result"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid22"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "The Result of an Observation, Actuation, or act of Sampling. To store an observation's simple result value one can use the hasSimpleResult property."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en",
+    "@value" : "The value 20 as the height of a certain tree together with the unit, e.g., Meter."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/Sample",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Sample is the result from an act of Sampling."
+  }, {
+    "@language" : "en",
+    "@value" : "Feature which is intended to be representative of a FeatureOfInterest on which Observations may be made."
+  }, {
+    "@language" : "en",
+    "@value" : "Physical samples are sometimes known as 'specimens'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/sosa/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sample"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
+  }, {
+    "@id" : "http://www.w3.org/ns/sosa/Result"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Feature which is intended to be representative of a FeatureOfInterest on which Observations may be made."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#note" : [ {
+    "@language" : "en",
+    "@value" : "A transient sample, such as a ships-track or flight-line, might be identified and described, but is unlikely to be revisited exactly."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/Sampling",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An act of Sampling carries out a sampling Procedure to create or transform one or more samples."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/sosa/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sampling"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An act of Sampling carries out a sampling Procedure to create or transform one or more samples."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en",
+    "@value" : "Crushing a rock sample in a ball mill."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/Sensor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Device, agent (including humans), or software (simulation) involved in, or implementing, a Procedure. Sensors respond to a stimulus, e.g., a change in the environment, or input data composed from the results of prior Observations, and generate a Result. Sensors can be hosted by Platforms."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/sosa/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sensor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/ssn/System"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Device, agent (including humans), or software (simulation) involved in, or implementing, a Procedure. Sensors respond to a stimulus, e.g., a change in the environment, or input data composed from the results of prior Observations, and generate a Result. Sensors can be hosted by Platforms."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en",
+    "@value" : "Accelerometers, gyroscopes, barometers, magnetometers, and so forth are Sensors that are typically mounted on a modern smart phone (which acts as Platform). Other examples of sensors include the human eyes."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/actsOnProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Actuation"
+  } ],
+  "http://schema.org/rangeIncludes" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/ActuatableProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between an Actuation and the property of a FeatureOfInterest it is acting upon."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/sosa/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "acts on property"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/hasResult"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Relation between an Actuation and the property of a FeatureOfInterest it is acting upon."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Observation"
+  }, {
+    "@id" : "http://www.w3.org/ns/sosa/Sampling"
+  } ],
+  "http://schema.org/rangeIncludes" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
+  }, {
+    "@id" : "http://www.w3.org/ns/sosa/Sample"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A relation between an Observation and the entity whose quality was observed, or between an Actuation and the entity whose property was modified, or between an act of Sampling and the entity that was sampled."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/sosa/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has feature of interest"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A relation between an Observation and the entity whose quality was observed, or between an Actuation and the entity whose property was modified, or between an act of Sampling and the entity that was sampled."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en",
+    "@value" : "For example, in an Observation of the weight of a person, the FeatureOfInterest is the person and the property is its weight."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/hasResult",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation linking an Observation or Actuation or act of Sampling and a Result or Sample."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/sosa/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasResult"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Relation linking an Observation or Actuation or act of Sampling and a Result or Sample."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/hasSimpleResult",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The simple value of an Observation or Actuation or act of Sampling."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/sosa/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has simple result"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "The simple value of an Observation or Actuation or act of Sampling."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/isActedOnBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between an ActuatableProperty of a FeatureOfInterest and an Actuation changing its state."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is Acted On By"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Relation between an ActuatableProperty of a FeatureOfInterest and an Actuation changing its state."
+  }, {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/sosa/"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en",
+    "@value" : "In the activity (Actuation) of automatically closing a window if the temperature in a room drops below 20 degrees Celsius, the property on which the Actuator acts upon is the state of the window as it changes from being open to being closed."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/isObservedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is Observed By"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/isResultOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Result"
+  }, {
+    "@id" : "http://www.w3.org/ns/sosa/Sample"
+  } ],
+  "http://schema.org/rangeIncludes" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Observation"
+  }, {
+    "@id" : "http://www.w3.org/ns/sosa/Sampling"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation linking a Result to the Observation or Actuation or act of Sampling that created or caused it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/sosa/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is result of"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Relation linking a Result to the Observation or Actuation or act of Sampling that created or caused it."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/madeByActuator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Actuation"
+  } ],
+  "http://schema.org/rangeIncludes" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Actuator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation linking an Actuation to the Actuator that made that Actuation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/sosa/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "made by actuator"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Relation linking an Actuation to the Actuator that made that Actuation."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/madeBySensor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Observation"
+  } ],
+  "http://schema.org/rangeIncludes" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between an Observation and the Sensor which made the Observation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/sosa/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "made by sensor"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Relation between an Observation and the Sensor which made the Observation."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/observedProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Observation"
+  } ],
+  "http://schema.org/rangeIncludes" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation linking an Observation to the property that was observed. The ObservableProperty should be a property of the FeatureOfInterest (linked by hasFeatureOfInterest) of this Observation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/sosa/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "observed property"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Relation linking an Observation to the property that was observed. The ObservableProperty should be a property of the FeatureOfInterest (linked by hasFeatureOfInterest) of this Observation."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/phenomenonTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The time that the Result of an Observation, Actuation or Sampling applies to the FeatureOfInterest. Not necessarily the same as the resultTime. May be an Interval or an Instant, or some other compound TemporalEntity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/sosa/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "phenomenonTime"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "The time that the Result of an Observation, Actuation or Sampling applies to the FeatureOfInterest. Not necessarily the same as the resultTime. May be an Interval or an Instant, or some other compound TemporalEntity."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/resultTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Actuation"
+  }, {
+    "@id" : "http://www.w3.org/ns/sosa/Observation"
+  }, {
+    "@id" : "http://www.w3.org/ns/sosa/Sampling"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The result time is the instant of time when the Observation, Actuation or Sampling activity was completed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/"
+  }, {
+    "@language" : "en",
+    "@value" : "The result time is the instant of time when the Observation, Actuation or Sampling activity was completed."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/ssn/Property",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A quality of an entity. An aspect of an entity that is intrinsic to and cannot exist without the entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/ssn/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Property"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid23"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/saref#Measurement"
+  }, {
+    "@id" : "https://w3id.org/saref#UnitOfMeasure"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A quality of an entity. An aspect of an entity that is intrinsic to and cannot exist without the entity."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/ssn/System",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "System is a unit of abstraction for pieces of infrastructure that implement Procedures. A System may have components, its subsystems, which are other systems."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/ssn/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "System"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "System is a unit of abstraction for pieces of infrastructure that implement Procedures. A System may have components, its subsystems, which are other systems."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/ssn/forProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A relation between some aspect of an entity and a Property."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/ssn/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "for Property"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A relation between some aspect of an entity and a Property."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en",
+    "@value" : "For example, from a Sensor to the properties it can observe; from an Actuator to the properties it can act on; from a Deployment to the properties it was installed to observe or act on; from a SystemCapability to the Property the capability is described for."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/ssn/hasProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between an entity and a Property of that entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/ssn/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.w3.org/ns/ssn/isPropertyOf"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Relation between an entity and a Property of that entity."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/ssn/hasSample",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between a FeatureOfInterest and the Sample used to represent it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has Sample"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Relation between a FeatureOfInterest and the Sample used to represent it."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/ssn/isPropertyOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between a Property and the entity it belongs to."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/ns/ssn/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is Property Of"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Relation between a Property and the entity it belongs to."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/ssn/observes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  } ],
+  "http://schema.org/rangeIncludes" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between a Sensor and an ObservableProperty that it is capable of sensing."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://www.w3.org/ns/sosa/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "observes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/ns/ssn/forProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Relation between a Sensor and an ObservableProperty that it is capable of sensing."
+  } ]
+}, {
+  "@id" : "https://w3id.org/saref#Measurement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents the measured value made over a property. It is also linked to the unit of measure in which the value is expressed and the timestamp of the measurement."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/saref#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Measurement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid24"
+  }, {
+    "@id" : "_:genid25"
+  }, {
+    "@id" : "_:genid26"
+  }, {
+    "@id" : "_:genid27"
+  }, {
+    "@id" : "_:genid28"
+  }, {
+    "@id" : "_:genid29"
+  } ]
+}, {
+  "@id" : "https://w3id.org/saref#UnitOfMeasure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The unit of measure is a standard for measurement of a quantity, such as a Property. For example,  Power is a property and Watt is a unit of power that represents a definite predetermined power: when we say 10 Watt, we actually mean 10 times the definite predetermined power called \"watt\". Our definition is based on the definition of unit of measure in the Ontology of units of Measure (OM). We propose here a list of some units of measure that are relevant for the purpose of the Smart Appliances ontology, but this list can be extended."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/saref#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Unit of Measure"
+  } ]
+}, {
+  "@id" : "https://w3id.org/saref#hasTimeStamp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A relationship stating the timestamp of an entity (e.g. a measurement)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/saref#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasTimeStamp"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://w3id.org/saref#hasValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A relationship defining the value of a certain property, e.g., energy or power"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/saref#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has Value"
+  } ]
+}, {
+  "@id" : "https://w3id.org/saref#isMeasuredIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A relation between a measurement and the unit of measure in which the measurement value is expressed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/saref#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is measured in"
+  } ]
+}, {
+  "@id" : "https://w3id.org/saref#makesMeasurement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/saref#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "makes Measurement"
+  } ]
+}, {
+  "@id" : "https://w3id.org/saref#relatesToProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A relation between a measurement and the property such measurement is about."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/saref#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "relates to property"
+  } ]
+} ]
