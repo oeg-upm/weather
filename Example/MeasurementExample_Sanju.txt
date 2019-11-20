@@ -1,0 +1,30 @@
+ex:WeatStation01Sensor01ObservationAtPT24H2019-11-19T00_M01
+  rdf:type owl:NamedIndividual ;
+  rdf:type saref:Measurement ;
+  saref:hasValue "9.7"^^xsd:double ;
+  saref:isMeasuredIn om:degreecelsius ;
+  saref:relatesToProperty weat:DryBulbTemperature ;
+
+
+ex:WeatStation01Sensor01ObservationAtPT24H2019-11-19T00_M02
+  rdf:type owl:NamedIndividual ;
+  rdf:type saref:Measurement ;
+  saref:hasValue "7.4"^^xsd:double ;
+  saref:isMeasuredIn om:degreecelsius ;
+  saref:relatesToProperty weat:DewPointTemperature ;
+
+
+ex:WeatStation01Sensor01ObservationAtPT24H2019-11-19T00_M03
+  rdf:type owl:NamedIndividual ;
+  rdf:type saref:Measurement ;
+  saref:hasValue "85"^^xsd:double ;
+  saref:isMeasuredIn qudt:Percent ;
+  saref:relatesToProperty adapters:RelativeHumidity ;
+
+
+ex:WeatStation01Sensor01ObservationAtPT24H2019-11-19T00_M04
+  rdf:type owl:NamedIndividual ;
+  rdf:type saref:Measurement ;
+  saref:hasValue "95700"^^xsd:double ;
+  saref:isMeasuredIn om:Pascal ;
+  saref:relatesToProperty weather:AtmosphericPressure ;
